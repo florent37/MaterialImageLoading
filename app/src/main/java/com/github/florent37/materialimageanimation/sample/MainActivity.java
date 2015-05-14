@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.github.florent37.materialimageanimation.R;
+import com.github.florent37.materialimageloading.MaterialImageLoading;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
