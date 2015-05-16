@@ -14,7 +14,7 @@ You can find a sample APK : [Link](https://github.com/florent37/MaterialImageLoa
 
 And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
-[![Video](http://share.gifyoutube.com/ygz6n4.gif) https://www.youtube.com/watch?v=hvHzVnMTYGk)]
+[![Video](http://share.gifyoutube.com/ygz6n4.gif)] (https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
 #Download
 
