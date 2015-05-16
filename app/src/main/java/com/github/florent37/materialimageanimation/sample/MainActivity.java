@@ -35,7 +35,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     private void loadImage(){
         String url = "http://lorempixel.com/"+getRandomNumber()+"/"+getRandomNumber()+"/";
-        Picasso.with(this).load(url).fit().centerCrop().into(imageView, new Callback() {
+        int r = R.drawable.image_sample;
+        Picasso.with(this).load(r).fit().centerCrop().into(imageView, new Callback() {
 
             @Override
             public void onSuccess() {

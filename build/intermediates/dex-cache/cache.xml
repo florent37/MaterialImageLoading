@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/exploded-aar/com.github.florent37/materialimageloading/0.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="031323e3f6451001026e1a63cc34823227c02d16">
+        <dex dex="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/pre-dexed/debug/classes-3bba7e6d8a309c084836d85fc2d6a83c2fb14042.jar" />
+    </item>
+    <item
+        jar="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/pre-dexed/debug/classes-85133829a393cb429b2bca5b1f4d5ed4f94e1e67.jar" />
+    </item>
+    <item
+        jar="/Users/florentchampigny/android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-07b806ab424e360ddd07c7a100545f99ebb48574.jar" />
+    </item>
+    <item
+        jar="/Users/florentchampigny/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-d9dbf759b82e0a196ef7f96b8ec80e205613ba7d.jar" />
+    </item>
+    <item
+        jar="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/pre-dexed/debug/classes-569f0321879a2a7c0ddea4410cac68b694874212.jar" />
+    </item>
+    <item
+        jar="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/florentchampigny/Desktop/MaterialImageAnimation/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-85c43d0345332dcdd268d745341449c08427f28b.jar" />
+    </item>
+
+</items>
