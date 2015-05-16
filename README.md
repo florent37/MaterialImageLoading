@@ -10,7 +10,7 @@ Material image loading implementation
 
 #Sample
 
-You can find a sample APK : [Link](https://github.com/florent37/MaterialImageLoading/releases/download/1.0.3/sample-debug.apk)
+You can find a sample APK : [Link](https://github.com/florent37/MaterialImageLoading/releases/download/1.0.0/sample-debug.apk)
 
 And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
@@ -18,9 +18,9 @@ And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.c
 
 #Download
 
-In your module [![Download](https://api.bintray.com/packages/florent37/maven/MaterialViewPager/images/download.svg)](https://bintray.com/florent37/maven/MaterialViewPager/_latestVersion)
+In your module [![Download](https://api.bintray.com/packages/florent37/maven/MaterialImageLoading/images/download.svg)](https://bintray.com/florent37/maven/MaterialImageLoading/_latestVersion)
 ```groovy
-compile 'com.github.florent37:materialimageloading:0.0.1'
+compile 'com.github.florent37:materialimageloading:1.0.0'
 ```
 
 #Usage
