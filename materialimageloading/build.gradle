@@ -46,8 +46,8 @@ dependencies {
 // ./gradlew install bintrayUpload
 
 
-def siteUrl = 'https://github.com/florent37/MaterialImageLoader'      // Homepage URL of the library
-def gitUrl = 'https://github.com/florent37/MaterialImageLoader.git'   // Git repository URL
+def siteUrl = 'https://github.com/florent37/MaterialImageLoading'      // Homepage URL of the library
+def gitUrl = 'https://github.com/florent37/MaterialImageLoading.git'   // Git repository URL
 group = "com.github.florent37"                      // Maven Group ID for the artifact
 
 
@@ -59,7 +59,7 @@ install {
                 packaging 'aar'
 
                 // Add your description here
-                name 'MaterialImageLoader'
+                name 'MaterialImageLoading'
                 description = ''
                 url siteUrl
 
@@ -130,7 +130,7 @@ bintray {
     pkg {
         repo = "maven"
         // it is the name that appears in bintray when logged
-        name = "MaterialImageLoader"
+        name = "MaterialImageLoading"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
