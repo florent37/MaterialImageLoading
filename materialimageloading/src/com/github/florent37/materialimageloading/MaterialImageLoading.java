@@ -27,9 +27,8 @@ public class MaterialImageLoading {
     final Drawable drawable;
 
     float saturation;
-    int duration = 3000;
 
-    public ColorMatrix setContrast(float contrast) {
+    private ColorMatrix setContrast(float contrast) {
         float scale = contrast + 1.f;
         float translate = (-.5f * scale + .5f) * 255.f;
         float[] array = new float[]{
@@ -45,7 +44,11 @@ public class MaterialImageLoading {
     ValueAnimator animationContrast;
     ObjectAnimator animationAlpha;
 
-    public void animate() {
+    public void animate(){
+        animate(3000);
+    }
+
+    public void animate(int duration) {
         //region saturation
         animationSaturation = ValueAnimator.ofFloat(0.2f, 1f);
         animationSaturation.setDuration(duration);
