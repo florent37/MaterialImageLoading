@@ -2,6 +2,7 @@ MaterialImageLoading
 =======
 
 [![Build Status](https://travis-ci.org/florent37/MaterialImageLoading.svg)](https://travis-ci.org/florent37/MaterialImageLoading)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MaterialImageLoading-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/1951)
 
 Material image loading implementation
 
