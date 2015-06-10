@@ -35,7 +35,7 @@ Picasso.with(this).load(url).fit().centerCrop().into(imageView, new Callback() {
 
             @Override
             public void onSuccess() {
-                MaterialImageLoading.animate(imageView).start();
+                MaterialImageLoading.animate(imageView).setDuration(2000).start();
             }
 
             @Override

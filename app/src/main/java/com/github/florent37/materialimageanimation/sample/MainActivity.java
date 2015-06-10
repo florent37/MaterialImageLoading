@@ -40,7 +40,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
             @Override
             public void onSuccess() {
-                MaterialImageLoading.animate(imageView).start();
+                MaterialImageLoading.animate(imageView).setDuration(2000).start();
             }
 
             @Override

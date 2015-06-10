@@ -13,9 +13,10 @@ import com.nineoldandroids.animation.ValueAnimator;
  */
 public class MaterialImageLoading {
 
+    private static final int DEFAULT_DURATION = 3000;
+
     public static MaterialImageLoading animate(ImageView imageView) {
         MaterialImageLoading materialImageLoading = new MaterialImageLoading(imageView);
-        materialImageLoading.animate();
         return materialImageLoading;
     }
 
@@ -27,7 +28,18 @@ public class MaterialImageLoading {
     final ImageView imageView;
     final Drawable drawable;
 
+    int duration = DEFAULT_DURATION;
+
     float saturation;
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public MaterialImageLoading setDuration(int duration) {
+        this.duration = duration;
+        return this;
+    }
 
     private ColorMatrix setContrast(float contrast) {
         float scale = contrast + 1.f;
@@ -45,11 +57,7 @@ public class MaterialImageLoading {
     ValueAnimator animationContrast;
     ObjectAnimator animationAlpha;
 
-    public void animate(){
-        animate(3000);
-    }
-
-    public void animate(int duration) {
+    private void setup(int duration) {
         //region saturation
         animationSaturation = ValueAnimator.ofFloat(0.2f, 1f);
         animationSaturation.setDuration(duration);
@@ -81,7 +89,9 @@ public class MaterialImageLoading {
         //endregion
     }
 
-    public void start(){
+    public void start() {
+        setup(duration);
+
         animationSaturation.start();
         animationContrast.start();
         animationAlpha.start();
