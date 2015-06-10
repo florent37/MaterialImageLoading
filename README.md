@@ -21,7 +21,9 @@ And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.c
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/MaterialImageLoading/images/download.svg)](https://bintray.com/florent37/maven/MaterialImageLoading/_latestVersion)
 ```groovy
-compile 'com.github.florent37:materialimageloading:1.0.0'
+compile ('com.github.florent37:materialimageloading:1.0.1@aar'){
+    transitive=true
+}
 ```
 
 #Usage
@@ -50,6 +52,12 @@ Picasso.with(this).load(url).fit().centerCrop().into(imageView, new Callback() {
 Looking for contributors, feel free to fork !
 
 Tell me if you're using my library in your application, I'll share it in this README
+
+#Changelog
+
+##1.0.1
+
+- Backport to API 10 using NineOldAndroid
 
 #Thanks
 
