@@ -1,36 +1,32 @@
 package com.github.florent37.materialimageloading;
 
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.drawable.Drawable;
+import android.view.View;
 import android.widget.ImageView;
 
-import com.nineoldandroids.animation.ObjectAnimator;
-import com.nineoldandroids.animation.ValueAnimator;
-
-/**
- * Created by florentchampigny on 13/05/15.
- */
 public class MaterialImageLoading {
 
     private static final int DEFAULT_DURATION = 3000;
-
-    public static MaterialImageLoading animate(ImageView imageView) {
-        MaterialImageLoading materialImageLoading = new MaterialImageLoading(imageView);
-        return materialImageLoading;
-    }
+    final ImageView imageView;
+    final Drawable drawable;
+    int duration = DEFAULT_DURATION;
+    float saturation;
+    ValueAnimator animationSaturation;
+    ValueAnimator animationContrast;
+    ObjectAnimator animationAlpha;
 
     private MaterialImageLoading(ImageView imageView) {
         this.imageView = imageView;
         this.drawable = imageView.getDrawable();
     }
 
-    final ImageView imageView;
-    final Drawable drawable;
-
-    int duration = DEFAULT_DURATION;
-
-    float saturation;
+    public static MaterialImageLoading animate(ImageView imageView) {
+        return new MaterialImageLoading(imageView);
+    }
 
     public int getDuration() {
         return duration;
@@ -41,21 +37,30 @@ public class MaterialImageLoading {
         return this;
     }
 
+    public void start() {
+        setup(duration);
+
+        animationSaturation.start();
+        animationContrast.start();
+        animationAlpha.start();
+    }
+
+    public void cancel() {
+        animationSaturation.cancel();
+        animationContrast.cancel();
+        animationAlpha.cancel();
+    }
+
     private ColorMatrix setContrast(float contrast) {
         float scale = contrast + 1.f;
         float translate = (-.5f * scale + .5f) * 255.f;
         float[] array = new float[]{
-                scale, 0, 0, 0, translate,
-                0, scale, 0, 0, translate,
-                0, 0, scale, 0, translate,
-                0, 0, 0, 1, 0};
-        ColorMatrix matrix = new ColorMatrix(array);
-        return matrix;
+            scale, 0, 0, 0, translate,
+            0, scale, 0, 0, translate,
+            0, 0, scale, 0, translate,
+            0, 0, 0, 1, 0};
+        return new ColorMatrix(array);
     }
-
-    ValueAnimator animationSaturation;
-    ValueAnimator animationContrast;
-    ObjectAnimator animationAlpha;
 
     private void setup(int duration) {
         //region saturation
@@ -70,8 +75,8 @@ public class MaterialImageLoading {
         //endregion
 
         //region contrast
-        animationContrast = ValueAnimator.ofFloat(0, 1f);
-        animationContrast.setDuration(duration * 3 / 4);
+        animationContrast = ValueAnimator.ofFloat(0f, 1f);
+        animationContrast.setDuration((long) (duration * 3f / 4f));
         animationContrast.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
@@ -84,23 +89,9 @@ public class MaterialImageLoading {
         //endregion
 
         //region alpha
-        animationAlpha = ObjectAnimator.ofFloat(imageView, "alpha", 0f, 1f);
-        animationAlpha.setDuration(duration / 2);
+        animationAlpha = ObjectAnimator.ofFloat(imageView, View.ALPHA, 0f, 1f);
+        animationAlpha.setDuration((long) (duration / 2f));
         //endregion
-    }
-
-    public void start() {
-        setup(duration);
-
-        animationSaturation.start();
-        animationContrast.start();
-        animationAlpha.start();
-    }
-
-    public void cancel(){
-        animationSaturation.cancel();
-        animationContrast.cancel();
-        animationAlpha.cancel();
     }
 
 }
