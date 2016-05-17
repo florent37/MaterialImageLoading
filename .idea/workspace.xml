@@ -10,33 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3927aa2c-2069-4082-b1f8-341b8f7eb05c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/butterknife_8_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/butterknife_annotations_8_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/bintray-android-v1.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/bintray-java-v1.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/install-v1.gradle" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_1_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MaterialImageLoading.iml" afterPath="$PROJECT_DIR$/MaterialImageLoading.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/github/florent37/materialimageanimation/sample/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/florent37/materialimageanimation/sample/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/materialimageloading/build.gradle" afterPath="$PROJECT_DIR$/materialimageloading/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/materialimageloading/materialimageloading.iml" afterPath="$PROJECT_DIR$/materialimageloading/materialimageloading.iml" />
     </list>
     <ignored path="MaterialImageLoading.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,15 +70,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/florent37/materialimageanimation/sample/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15975104">
+            <state vertical-scroll-proportion="0.0">
               <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
                 <element signature="e#1490#1491#0" expanded="true" />
                 <element signature="e#1517#1518#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3321,11 +3305,18 @@
       <option name="number" value="Default" />
       <updated>1463482721793</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated project architecture">
+      <created>1463483852435</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463483852435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3333,10 +3324,10 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -3358,6 +3349,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated project architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project architecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -3422,12 +3417,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/florent37/materialimageanimation/sample/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15975104">
+        <state vertical-scroll-proportion="0.0">
           <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding>
             <element signature="e#1490#1491#0" expanded="true" />
             <element signature="e#1517#1518#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
