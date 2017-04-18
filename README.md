@@ -9,7 +9,7 @@ Material image loading implementation
 
 [![Build screen](https://raw.githubusercontent.com/florent37/MaterialImageLoading/master/app/src/main/res/drawable/description_small.png)](https://raw.githubusercontent.com/florent37/MaterialImageLoading/master/app/src/main/res/drawable/description.png)
 
-#Sample
+# Sample
 
 You can find a sample APK : [Link](https://github.com/florent37/MaterialImageLoading/releases/download/1.0.0/sample-debug.apk)
 
@@ -17,14 +17,14 @@ And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.c
 
 [![Video](http://share.gifyoutube.com/ygz6n4.gif)] (https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
-#Download
+# Download
 
 In your module [![Download](https://api.bintray.com/packages/florent37/maven/MaterialImageLoading/images/download.svg)](https://bintray.com/florent37/maven/MaterialImageLoading/_latestVersion)
 ```groovy
 compile 'com.github.florent37:materialimageloading:1.0.2'
 ```
 
-#Usage
+# Usage
 
 Simply use MaterialImageLoading.animate
 for example
@@ -43,19 +43,19 @@ Picasso.with(this).load(url).fit().centerCrop().into(imageView, new Callback() {
         });
 ```
 
-#TODO
+# TODO
 
-#Community
+# Community
 
 Looking for contributors, feel free to fork !
 
 Tell me if you're using my library in your application, I'll share it in this README
 
-#Thanks
+# Thanks
 
 * [Picasso][picasso] used for the sample (from Square)
 
-#Credits
+# Credits
 
 Author: Florent Champigny www.florentchampigny.com/
 
