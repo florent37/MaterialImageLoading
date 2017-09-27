@@ -1,9 +1,7 @@
 package com.github.florent37.materialimageanimation.sample;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ImageView;
 
 import com.github.florent37.materialimageanimation.R;
@@ -17,7 +15,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity {
+public class MaterialImageLoadingMainActivity extends AppCompatActivity {
 
     final static int DURATION = 4000;
 
@@ -29,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.materialimageloading_activity_main);
         ButterKnife.bind(this);
     }
 
@@ -40,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadImage(){
-        Picasso.with(this).load(R.drawable.image_sample).fit().centerCrop().into(imageView, new Callback() {
+        Picasso.with(this).load(R.drawable.materialimageloading_image_sample).fit().centerCrop().into(imageView, new Callback() {
 
             @Override
             public void onSuccess() {
