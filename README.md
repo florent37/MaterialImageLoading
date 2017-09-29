@@ -11,7 +11,9 @@ Material image loading implementation
 
 # Sample
 
-You can find a sample APK : [Link](https://github.com/florent37/MaterialImageLoading/releases/download/1.0.0/sample-debug.apk)
+<a href="com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 
 And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
@@ -61,6 +63,9 @@ Tell me if you're using my library in your application, I'll share it in this RE
 
 Author: Florent Champigny www.florentchampigny.com/
 
+<a href="com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
