@@ -6,14 +6,13 @@ MaterialImageLoading
 
 Material image loading implementation
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/iqkQGAc2EFNdScAzpwZr1Sdy/florent37/MaterialImageLoading'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/iqkQGAc2EFNdScAzpwZr1Sdy/florent37/MaterialImageLoading.svg' />
+</a>
 
 [![Build screen](https://raw.githubusercontent.com/florent37/MaterialImageLoading/master/app/src/main/res/drawable/description_small.png)](https://raw.githubusercontent.com/florent37/MaterialImageLoading/master/app/src/main/res/drawable/description.png)
 
 # Sample
-
-<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
-  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
-</a>
 
 And have a look on a sample Youtube Video : [Youtube Link](https://www.youtube.com/watch?v=hvHzVnMTYGk)
 
