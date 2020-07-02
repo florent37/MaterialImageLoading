@@ -62,7 +62,7 @@ Tell me if you're using my library in your application, I'll share it in this RE
 
 # Credits
 
-Author: Florent Champigny www.florentchampigny.com/
+Author: Florent Champigny 
 
 <a href="https://goo.gl/WXW8Dc">
   <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
